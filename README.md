@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Онлайн Магазин "Товар"
+Проект "Онлайн Магазин "Товар"" предоставляет возможность просмотра и покупки различных товаров.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Зависимости
+Проект использует следующие пакеты зависимостей:
 
-## Available Scripts
+react: Библиотека для создания пользовательских интерфейсов.
+sass: Препроцессор CSS для создания стилей.
+typescript: Расширение JavaScript, добавляющее статическую типизацию.
+bootstrap: CSS-фреймворк для создания современных пользовательских интерфейсов.
+axios: Клиент для работы с HTTP-запросами.
+Material-UI: библиотека компонентов пользовательского интерфейса для React, 
+основанная на Material Design от Google.
 
-In the project directory, you can run:
+## Установка
 
-### `yarn start`
+1. Клонируйте репозиторий:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   git clone <https://github.com/Magamed-Ali/volute-conversion.git>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Перейдите в директорию проекта:
 
-### `yarn test`
+   cd <index-studio>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Установите зависимости:
 
-### `yarn build`
+   npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   или
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   yarn install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Запуск проекта
 
-### `yarn eject`
+Выполните следующую команду для запуска проекта в режиме разработки:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    npm start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    или 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    yarn start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Вклад
+Если вы хотите внести свой вклад в проект, пожалуйста, ознакомьтесь с информацией о вкладе и отправьте свои предложения и исправления через пул-реквест.
 
-## Learn More
+## Контакты
+Если у вас возникли вопросы или предложения, пожалуйста, свяжитесь со мной по электронной почте или через мои социальные сети:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+mail: magamedali93@mail.ru
+Tел: 89304388667
+телеграм: https://t.me/amg095

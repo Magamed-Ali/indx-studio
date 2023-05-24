@@ -1,0 +1,137 @@
+.App{
+  margin-top: 50px;
+}
+
+.loading-container{
+  width: 80%;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0;
+  margin: 10px 5px;
+  background: #F8F8F8;
+  border-radius: 15px;
+
+  img{
+    position: absolute;
+    top: 120px;
+    left: 35%;
+    width: 30%;
+    height: 10px;
+    z-index: 99;
+  }
+}
+
+.skeleton{
+  height: 100%;
+
+  .skeleton-text{
+    display: flex;
+    justify-content: space-around;
+
+
+    span{
+      &:first-child{
+        margin-right: 3px;
+      }
+
+      &:last-child{
+        margin-left: 3px;
+      }
+    }
+  }
+
+  .skeleton-bottom{
+    span{
+      &:first-child{
+        margin: 15px 0;
+      }
+
+      &:last-child{
+        margin: 15px 0;
+      }
+    }
+  }
+}
+
+.stack-loading{
+  display: flex;
+
+  &__left{
+    width: 100%;
+
+    img{
+      width: 25%;
+      left: 12%;
+    }
+  }
+}
+
+.download-card{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+
+  &__top{
+    width: 35%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+
+
+}
+
+.download-card-img{
+  width: 100%;
+}
+
+.download-card-y{
+  width: 90%;
+  margin: 10px 0;
+
+  &__top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.price{
+  /*width: 180px;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #2C2C2C;
+
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.title{
+  text-transform: capitalize!important;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2C2C2C;
+}
+
+.address{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8F8F8F;
+}

@@ -1,0 +1,39 @@
+
+.footer{
+  display: flex;
+  justify-content: center;
+
+  button{
+    border: none;
+    background-color: transparent;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #00A0AB;
+    transition: .3s;
+
+    &:hover{
+      color: #08858d;
+    }
+    &:active{
+      color: #036167;
+    }
+  }
+
+  .button-none{
+
+  }
+
+  &__erorr{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4px;
+    line-height: 17px;
+    color: #8F8F8F;
+  }
+
+}
